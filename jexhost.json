@@ -1,0 +1,30 @@
+{
+  "bot-name": "Princetech-X-bot",
+  "owner-verification": "amanuiprincely2@gmail.com",
+  "tagline": "Advanced Whatsapp bot made with much love from Cameroon",
+  "documentation-link": "https://github.com/Prince-tech-bit/PRINCETECH-BOT-update.git#readme",
+  "session-helper-url": "https://Princetech-X-bot-pair.prince.top",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "Session id must start with: Peincetech-BOT~, princetect-BOT:~, princetech-BOT~, princetech-BOT:~, or prince~",
+      "required": true,
+      "value": ""
+    },
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "princetech Tech"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "237677097064"
+    },
+    "MODE": {
+      "description": "'public' to respond to everyone, 'private' to respond to the owner only",
+      "required": false,
+      "value": "public"
+    }
+  }
+}

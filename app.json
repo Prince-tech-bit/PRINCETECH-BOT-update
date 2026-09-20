@@ -1,0 +1,33 @@
+{
+  "name": "Princetech-X-bot",
+  "description": "princetech-X advanced Whatsapp bot!",
+  "keywords": [],
+  "repository": "https://github.com/Prince-tech-bit/PRINCETECH-BOT-update.git",
+  "stack": "heroku-24",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Session id must start with: Princetech-X-BOT~, Princetech-X-BOT:~, Princetech-X-BOT~, Princetech-X-BOT:~, or Prince~",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-activestorage-preview"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
