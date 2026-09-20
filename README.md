@@ -1,6 +1,7 @@
- <img src="./PRINCETECH-X-BOT-README-LOGO.jpg" width="250" alt="PRINCETECH-X BOT">
+<p align="center">
+  <img src="./logo.jpg" alt="PRINCETECH-X BOT" width="500">
 </p>
-</>
+</p>
 
 <br/>
 
