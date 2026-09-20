@@ -1,5 +1,4 @@
-align="center">
-  <img src="./PRINCETECH-X-BOT-README-LOGO.jpg" width="250" alt="PRINCETECH-X BOT">
+ <img src="./PRINCETECH-X-BOT-README-LOGO.jpg" width="250" alt="PRINCETECH-X BOT">
 </p>
 </>
 
